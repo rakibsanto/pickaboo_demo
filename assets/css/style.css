@@ -1,0 +1,225 @@
+/* RESPONSIVE DESIGN CODE */
+body { padding: 0; margin: 0; }
+.lightblue { background-color: lightblue; }
+.lightgreen { background-color: lightgreen; }
+.lightgray { background-color: lightgray; }
+.lightpink { background-color: lightpink; }
+.row { width: 100%; }
+
+.col-md-1 { width: 8.333333333%; }
+.col-md-2 { width: 16.66666667%; }
+.col-md-3 { width: 25%; }
+.col-md-4 { width: 33.33333333%; }
+.col-md-5 { width: 41.66666667%; }
+.col-md-6 { width: 50%; }
+.col-md-7 { width: 58.33333333%; }
+.col-md-8 { width: 66.66666667%; }
+.col-md-9 { width: 75%; }
+.col-md-10 { width: 83.33333333%; }
+.col-md-11 { width: 91.66666667%; }
+.col-md-12 { width: 100%; }
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	float: left;
+}
+
+@media screen and (max-width: 640px)
+{
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		width: 100%;
+	}
+}
+
+/* MY CUSTOME CODE */
+
+.header {
+	padding: 2%;
+}
+
+.plogo{
+	height: 60px;
+}
+.headsearch {
+	width: 90%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: 2px 2px; 
+    padding: 10px 18px 10px 38px;
+	
+}
+.headcart {
+	background-color: #BdBdBd;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.top-menu {
+	padding-top: 5%;
+}
+
+nav > .nav > .row > div {background-color:#11a0db; padding:0% 0% .5% 20%;}	
+.mainnav ul {
+	list-style: none;
+ 	padding: 0px;
+	margin: 0px;
+ }
+.mainnav ul li { 
+	display: block;
+	position: relative;
+ 	float: left;
+ 	border:1px solid #000ff;
+ 	}
+.mainnav li ul { 
+	display: none;
+	}
+.mainnav ul li a { 
+	display: block;
+	background: #1fa0e0;
+	padding: 5px 10px 5px 10px;
+ 	text-decoration: none;
+	white-space: nowrap;
+	color: white;
+ 	}
+.mainnav ul li a:hover { background: white; }
+.mainnav li:hover ul { display: block; position: absolute; }
+.mainnav li:hover a { background: white; color: #1fa3e0; }
+.mainnav li:hover li a:hover { background: white; }
+ #drop-nav li ul li { border-top: 0px; width:100%; }
+.mainnav .col-md-1 { width: 100%; }
+
+.smartphone {
+	width: 100% !important;
+	padding-top: 2%;
+}
+.mobile {
+	font-family: Verdana;
+	padding:2px;
+}
+
+.mobile-accessories {
+	width: 100% !important;
+	padding-top: 2%;
+}
+.m-accessories {
+	font-family: Verdana;
+	padding:2px;
+}
+.computer-accessories {
+	width: 100% !important;
+	padding-top: 2%;
+}
+.c-accessories {
+	font-family: Verdana;
+	padding:2px;
+}
+.life-style {
+	width: 100% !important;
+	padding-top: 2%;
+}
+.l-accessories {
+	font-family: Verdana;
+	padding:2px;
+}
+.electronics {
+	width: 100% !important;
+	padding-top: 2%;
+}
+.e-accessories {
+	font-family: Verdana;
+	padding:2px;
+}
+.gaming {
+	width: 100% !important;
+	padding-top: 2%;
+}
+.g-accessories {
+	font-family: Verdana;
+	padding:2px;
+}
+.footernav {
+	background-color: pink;
+}
+
+.about1 {
+	text-align: center;
+	font-family: Verdana;
+	padding-left: 25px;
+}
+
+.ul-none {
+	list-style:none;
+	text-align: center;
+	font-family: Verdana;
+font-size: 15px;
+}
+.contact {
+	text-align: center;
+	font-family: Verdana;
+}
+.contact li {
+	list-style: none;
+}
+.pickaboo {
+	text-align: center;
+	font-family: Verdana;
+
+}
+
+.download {
+	text-align: left;
+	font-family: Verdana;
+}
+.all-right {
+	text-align: center;
+}
+.underline {
+border-bottom: 1px solid #bfbfbf;
+}
+strong{
+	text-decoration: underline #11a0db 2px;
+	margin-bottom: 50px;
+
+}
+.footer2 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footerlogo {
+	height: 30px;
+}
+.allrr {
+	text-align: center;
+	color: #544b4b;
+	font-size: 15px;
+}
+
+div.box
+{
+	margin: 5px;
+	padding: 8px;
+	border: 1px solid #BDBdBD;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+	width: 14.5%;
+}
+div.desc
+{
+	text-align: center;
+	font-weight: normal;
+	margin: 5px;
+	color: red;
+}
+.box img {
+	height: 100%;
+	width: 100%;
+}
